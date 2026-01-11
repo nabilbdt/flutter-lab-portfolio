@@ -1,4 +1,45 @@
-📱 Flutter Portfolio - Agence DigitaleExamen Final : Module Développement Mobile (M. Ayad)Ce projet est une application mobile de type Portfolio réalisée avec Flutter. Elle démontre une maîtrise avancée de l'architecture logicielle, de l'UI/UX design moderne et de l'intégration de services tiers.🎨 Aperçu de l'InterfaceL'application adopte une charte graphique "Deep Dark" avec des accents Cyber Cyan, optimisée pour une expérience utilisateur immersive.Accueil & ExpertiseFlux Tech PulseProjets & TravauxContact & Lead<img src="https://github.com/user-attachments/assets/8ed4b3d5-9531-473b-ae96-b409fa1a1789" width="180"><img src="https://github.com/user-attachments/assets/d3397e56-5709-436e-8ac4-76fe86bfe529" width="180"><img src="https://github.com/user-attachments/assets/4d1239aa-d1ec-45d1-be5e-6d9af4ffa179" width="180"><img src="https://github.com/user-attachments/assets/cb8e30e4-3a47-4bf8-9598-0648edfb6b6c" width="180">Profil & StackNews API LiveShowcase ProjetsTerminal Form🛠️ Compétences Techniques Démontrées💎 UI/UX & Design SystemGlassmorphism : Effets de flou et de transparence sur les cartes et les menus.Theming : Système de couleurs sombre personnalisé et typographie Space Grotesk.Micro-interactions : États de survol et de clic animés.🎬 Animations & Navigationflutter_animate : Utilisation intensive pour les transitions d'entrée (fade, slide, scale).AnimatedDrawer : Menu latéral synchronisé avec un AnimationController pour une ouverture fluide.Curved Navigation Dock : Barre de navigation flottante avec indicateurs d'état actifs.⚙️ Backend & ArchitectureConsommation d'API REST : Récupération de données dynamiques via le package http (Service asynchrone).Modularité : Organisation du code suivant le pattern Clean Code :screens/ : Vues principales.widgets/ : Composants UI réutilisables.services/ : Logique métier et appels API.📦 Stack TechniqueFramework : Flutter (Material 3)API : NewsAPI (Flux technologique)Packages : * google_fonts (Typographie professionnelle)flutter_animate (Moteur d'animation)http (Client REST)🚀 Installation et TestPour tester le projet localement, suivez ces étapes :Cloner le dépôtBashgit clone https://github.com/nabilbdt/flutter-lab-portfolio.git
-Installer les dépendancesBashflutter pub get
-Lancer l'applicationBashflutter run
-Réalisé par : Nabil ElbayadClasse : Cycle Ingénieur - 2ème AnnéeEncadré par : M. Ayad
+# 📱 Flutter Portfolio - Agence Digitale
+> **Projet de fin de module : Développement Mobile (Classe de M. Ayad)**
+
+Ce projet constitue le rendu final pour le module de Développement Mobile. Il s'agit d'une application de type Portfolio professionnel démontrant la maîtrise des widgets avancés, des animations fluides et de l'intégration d'API REST sous Flutter.
+
+---
+
+## 📸 Aperçu du Projet
+
+L'application adopte une charte graphique **"Deep Dark"** industrielle avec des accents **Cyber Cyan**, structurée autour de quatre sections clés :
+
+| **Accueil & Expertise** | **Flux Tech Pulse** | **Projets & Travaux** | **Contact & Lead** |
+| :---: | :---: | :---: | :---: |
+| <img width="453" height="928" alt="Screenshot 2026-01-12 001742" src="https://github.com/user-attachments/assets/4560dfd0-6914-4797-85ab-1e6a9e3ecfae" /> | <img width="455" height="937" alt="Screenshot 2026-01-12 001751" src="https://github.com/user-attachments/assets/0e8ef42b-affe-423f-b1cc-8d4c18bd105f" /> | <img width="447" height="938" alt="Screenshot 2026-01-12 001804" src="https://github.com/user-attachments/assets/61ef0331-ae96-46ab-9485-d84e36490b26" /> | <img width="494" height="949" alt="Screenshot 2026-01-12 001813" src="https://github.com/user-attachments/assets/c444b58f-b21c-46a2-bec5-f16c5b793c67" /> |
+| *Présentation du profil* | *Flux News API Live* | *Galerie de réalisations* | *Formulaire Terminal* |
+
+---
+
+## 🛠️ Compétences Techniques Démontrées
+
+### 💎 UI/UX & Design System
+* **Esthétique Moderne :** Utilisation du Glassmorphism et de thèmes sombres personnalisés.
+* **Typographie :** Intégration de polices professionnelles via Google Fonts (`Space Grotesk`).
+* **Micro-interactions :** Boutons et champs de saisie réactifs avec feedback visuel.
+
+### 🎬 Animations & Navigation
+* **Moteur d'Animation :** Intégration de `flutter_animate` pour des transitions d'entrée élégantes (Fade, Slide, Scale).
+* **Navigation Avancée :** * Implémentation d'un `AnimatedDrawer` synchronisé via un `AnimationController`.
+  * Création d'une `CurvedNavigationBar` (Dock flottant) pour une navigation intuitive.
+
+### ⚙️ Architecture & Data
+* **Consommation d'API :** Service asynchrone développé pour récupérer et parser des données JSON en temps réel.
+* **Organisation du Code :** Architecture modulaire respectant la séparation des responsabilités :
+  * `screens/` : Interfaces utilisateur.
+  * `widgets/` : Composants graphiques réutilisables.
+  * `services/` : Logique d'appel réseau et modèles de données.
+
+---
+
+
+Réalisé par : Nabil Elbayad
+
+Encadré par : M. Ayad
+
+Année : 2026
